@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<script>
-    alert ("Ola mundo")
-    function TrocarFrase() {
-        var FraseAtual = document.getElementById("frase");
-elemento.innerHTML = "funcionou, a frase mudou";
-elemento.style.color = "red";
-elemento.style.fontSize ="25px";
-elemento.style.backgroundColor = "blue";
- document.body.style.backgroundColor = "yellow"
- elemento.innerHTML = "<img scr=\'img/pingu.png\' />"
-}
 
-
-</script>
 <body>
-  <h1 andblclick="mudarFrase ()" id="frase" > Ola mundo</h1>
+  <h1 onmouseover="TrocarClasse()"
+  class="h1_1"
+  ondblclick="mudarFrase()" id="frase">Ola mundo</h1>
+  <input id="novaFrase" type="text">
+  <br>
+  <input  id="botao" type="button" value="trocar Frase"
+  onclick="trocarTexto;"
+  >
+<br>
 </body>
 </html>
