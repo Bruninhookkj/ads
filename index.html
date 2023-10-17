@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<script>
+    alert ("Ola mundo")
+    function TrocarFrase() {
+        var FraseAtual = document.getElementById("frase");
+ FraseAtual.innerHTML = "funcionou, a frase mudou";
+ FraseAtual.style.color = "red";
+ FraseAtual.style.fontSize ="25px";
+ FraseAtual.style.backgroundColor = "blue";
+ document.body.style.backgroundColor = "yellow"
+ Element.innerHTML = "<img scr=\'img/pingu.png\' />"
+}
+
+
+</script>
 <body>
-    <script>
-        alert ("Ola mundo")
-        function TrocarFrase() {
-            var FraseAtual = document.getElementById("frase");
-     FraseAtual.innerHTML = "funcionou, a frase mudou";
-     FraseAtual.style.color = "red";
-     FraseAtual.style.fontSize ="25px";
-     FraseAtual.style.backgroundColor = "blue";
-     document.body.style.backgroundColor = "yellow"
-     Element.innerHTML = <img scr=\'img/a.jpeg\'
-    }
-
-
-    </script>
+  <h1 id="frase" andbclick="mudarFrase ()"> Ola mundo</h1>
 </body>
 </html>
