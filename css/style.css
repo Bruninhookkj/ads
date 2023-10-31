@@ -4,3 +4,14 @@
 .h1_2 {
     background-color: teal;
 }
+form fieldset{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom:10px ;
+    border-radius:20px;
+}
+.container {
+    max-width: 1200px;
+}
