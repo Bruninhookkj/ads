@@ -1,27 +1,16 @@
+
 <!DOCTYPE html>
-    <link rel="a" href="validar.html">
-<head>
-    <title>Javascript 01</title>
-    <script>
-      
-        alert("olá galera!")
-
-        var nome = "André"
-
-        console.log("o nome é = " + nome)
-    </script>
-    <script src="js/myscript.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <h1
-     ondblclick="mudarFrase()"
-     onmouseover="trocarClasse()" 
-     class="h1_1"
-     id="frase">Olá Mundo!</h1>
-     <input type="text" id="novaFrase"><br>
-     <input type="button" id="botao" value="Trocar Frase" onclick="trocarTexto()"><br>
-</body>
-
-</html>
+<html lang="en">
+    <head>
+        <title>Javascript 01</title>
+        <script type="text/Javascript" src="js/myscript.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 id="frase" onmouseover="mudarFrase()" class="h1_1">Ola Mundo</h1>
+        <input id="novaFrase" type="text"><br>
+        <input id="botao" type="button" value="Trocar Frase" onclick="trocarTexto()"><br>
+        <a href="calc.html">Calculadora</a>
+        <a href="validar.html">validar</a>
+    </body>
+</html

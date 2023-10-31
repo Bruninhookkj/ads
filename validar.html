@@ -1,21 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>      
-    <section class="container">
+<html>
+    <head>
+        <script>
+        
+            var nome= prompt("Diga um nome", "Bruno")
+            var sobrenome = prompt("Diga um sobrenome", "Falchetti")
+            var nomeCompleto = nome + " " +sobrenome
+            var tamanhoDoNome = nomeCompleto.length
+            alert (nomeCompleto +" com tamanho = " + tamanhoDoNome)
+
+            var retorno = confirm("Seu nome é: " + nomeCompleto + "?")
+            if(resposta == true){
+               imprimir(txt)
+            }else{
+                imprimir("deu rum")
+            }
+            
+            function TrabalhandoNúmeros(){
+                var num1= prompt("diga um número", 10.3)
+                var nm2 = 5;
+                var total = parseInt(num1) + num2
+                alert("total = " + total)
+            }
+        </script>
+        <script type="text/javascript" src="js/myscript.js"></script>
+        <head></head>
+            
+
+    </head>
+    <body>
+        <center>
+        <h1>validar</h1>
         <form>
-            <fieldset>
-                <legend></legend>
-
-                <div class="input-container">
-                    <label for="titulo">Título</label>
-                    <input type="text" name="titulo" id="titulo" placeholder="Título do livro" required autofocus>
-                </div>
-
-</body>
+            <fieldset aligm="center" style="width:270;">
+                <legend>login</legend>
+                email:<input id="idEmail" type="text" required onblur="maiscula();"><br>
+                senha:<input id="idSenha" type="number" required><br>
+                <input type="button" value="Enviar" onclick="Validar()">
+            </fieldset>
+        </form>
+    </center>   
+    </body>
 </html>
