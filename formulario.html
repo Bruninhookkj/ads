@@ -5,6 +5,15 @@
         <title>Exemplo de Formulário com Validação em HTML</title>
         <script>
             document.getElementById("meuFormulario").addEventListener("submit", function (event) {
+                // Realize suas operações de validação personalizadas aqui, se necessário.
+                // Por exemplo, você pode verificar os campos do formulário usando document.getElementById() 
+                // e fazer validações personalizadas em JavaScript.
+
+                // Se a validação falhar, você pode evitar o envio do formulário usando event.preventDefault():
+                // event.preventDefault();
+
+                // Se a validação passar, você pode permitir o envio do formulário normalmente.
+                // Se você quiser enviar o formulário via JavaScript, você pode fazer isso assim:
                 this.submit();
             });
 
@@ -44,6 +53,7 @@
 
             <input type="submit" value="Registrar">
         </form>
+        <a href="index.html">inicio</a>
     </body>
 
 </html>
